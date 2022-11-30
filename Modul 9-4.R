@@ -1,0 +1,5 @@
+diatas158 = pnorm(158, mean = 175, sd = 30, lower.tail = FALSE)
+print(diatas158)
+dibawah125 = pnorm(125, mean = 175, sd = 30, lower.tail = TRUE)
+print(dibawah125)
+1-pnorm(150, 175, 30)
